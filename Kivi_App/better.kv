@@ -1,0 +1,40 @@
+<MyGrid1>:
+    point: point
+    note: note
+
+    GridLayout:
+        cols: 1
+        size: root.width, root.height
+
+        GridLayout:
+            cols: 3
+
+            Label:
+                text: 'Good Point: '
+
+            TextInput:
+                id: point
+                multiline: False
+
+            GridLayout:
+                cols: 1
+                Button:
+                    text: 'up'
+                    on_press: root.increased()
+                Button:
+                    text: 'down'
+                    on_press: root.decreased()
+
+        Label:
+            text: 'Note of action: '
+
+        TextInput:
+            id: note
+            multiline: True
+
+        Button:
+            text: 'good action submit'
+            on_press: root.pressed()
+
+
+
