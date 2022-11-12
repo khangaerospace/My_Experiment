@@ -1,0 +1,10 @@
+% First read imige 
+A = imread('test.png');
+Aray = im2double(A);
+imshow(Aray);
+[U,D,V] = svd(Aray);
+%root estimation 
+nVs = 5;
+% Construct the imige
+B = zeros(size(Aray))
+
