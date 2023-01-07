@@ -39,12 +39,15 @@ Your system will require the [desktop Github application](https://desktop.github
 
 1. Fork a libary repository from your browser while logged into your Github account.
 2. Give the forked repository a name and description and click `Create fork` in your browser.
-3. In the Github desktop application, select the forked repository under the `Current repository` dropdown menu to perform a local checkout.
+3. Copy the link from the forked repository and clone that repository to your desktop application
 <p class="aligncenter">
     <img src="./images/1to3.png" alt="centered image" />
 </p>
-4. In the desktop application, select `New branch` under the `Current branch` dropdown menu.
-5. Give your branch an appropriate name and click `Create branch`.
+   
+4. In the Github desktop application, select the forked repository under the `Current repository` dropdown menu to perform a local checkout.
+
+5. In the desktop application, select `New branch` under the `Current branch` dropdown menu.
+6. Give your branch an appropriate name and click `Create branch`.
 
 <p class="aligncenter">
     <img src="./images/root/1-GitFork.png" alt="centered image" />
