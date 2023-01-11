@@ -48,28 +48,18 @@ Your system will require the [desktop Github application](https://desktop.github
 
 5. In the desktop application, select `New branch` under the `Current branch` dropdown menu.
 6. Give your branch an appropriate name and click `Create branch`.
+7. Code your Example.py and save it into your local `Training` folder. Open your Github desktop application, commit your code to your branch while providing an appropriate description.
+8. In the desktop application, select `Publish branch` to push your new code to your online repository
 
 <p class="aligncenter">
-    <img src="./images/root/1-GitFork.png" alt="centered image" />
+    <img src="./images/7to8.png" alt="centered image" />
 </p>
 
-6. Code your feature/bug fix and in the Github desktop application, commit your code to your branch while providing an appropriate description.
-7. In the desktop application, select `Publish branch` to push your new code to your online repository
-
-<p class="aligncenter">
-    <img src="./images/root/2-GitCommit.png"/>
-</p>
-
-8. In your browser, find the branch you just uploaded and select `Compare & pull request` to start a new PR. 
-9. Enter a PR title and detailed description. Provide motivation, any references and results. Select `Create pull request` to initiate the continuous integration (CI) pipeline.
+9.  In your browser, find the branch you just uploaded and select `Compare & pull request` to start a new PR. 
+10. Enter a PR title and detailed description. Provide motivation, any references and results. Select `Create pull request` to initiate the continuous integration (CI) pipeline.
 
 <p class="aligncenter">
     <img src="./images/root/3-GitPR.png"/>
 </p>
 
-10. Code maintainers will automatically be selected as reviewers and unit tests will be run as part of CI.
-If a single test fails, select `Details` to understand why and push an updated commit to the PR.
-
-<p class="aligncenter">
-    <img src="./images/root/4-GitCI.png"/>
-</p>
+11. Congratulations, You just created your first pull request. 
