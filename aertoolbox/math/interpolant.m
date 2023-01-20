@@ -8,7 +8,7 @@ p = zeros(8001,1);
 ptrue = zeros(8001,1);
 error = zeros(8001,1);
 for i=1:length(M)
-    p(i) = mach2pressure_pwl(M(i));
+    p(i) = mach2pressure_pwl(file, M(i));
     ptrue(i) = (1+ ((1.4-1)/2)*M(i)^2)^(-(1.4)/(1.4-1));
     error(i) = abs(p(i) - ptrue(i));
 end
